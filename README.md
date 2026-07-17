@@ -15,3 +15,11 @@ Abra o arquivo `index.html` no navegador.
 
 As imagens dos projetos ficam em `images/` e são vinculadas diretamente no
 arquivo `index.html`.
+
+Para publicar no GitHub Pages, mantenha a pasta `images` no mesmo nível do
+arquivo `index.html` e inclua os quatro arquivos no commit:
+
+- `images/gestaodecompras.png`
+- `images/intranet.png`
+- `images/autohub.png`
+- `images/autodesk.png`
