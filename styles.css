@@ -194,7 +194,7 @@ h3 {
 }
 
 .system-map {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, minmax(130px, 1fr));
   gap: 16px;
   height: 100%;
@@ -202,19 +202,19 @@ h3 {
 
 .map-node {
   display: flex;
-  min-height: 170px;
+  min-height: 160px;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   background: rgba(255, 255, 255, 0.78);
-  border: 1px solid var(--line);
+  border: 2px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
 }
 
 .map-node-main {
-  grid-row: span 2;
-  min-height: 360px;
+  grid-row: initial ;
+  min-height: 160px;
   color: #fff;
   background:
     linear-gradient(155deg, rgba(30, 99, 175, 0.96), rgba(20, 120, 100, 0.94)),
@@ -228,8 +228,8 @@ h3 {
 }
 
 .map-node strong {
-  max-width: 260px;
-  font-size: clamp(1.1rem, 2vw, 1.85rem);
+  max-width: 760px;
+  font-size: clamp(1.1rem, 1.3vw, 1.85rem);
   line-height: 1.05;
 }
 
